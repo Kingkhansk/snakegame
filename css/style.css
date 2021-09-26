@@ -44,16 +44,26 @@ canvas{
 .mode h4{
     margin: 10px;
 }
+#up,#left,#right,#down{
+    width: 60px;
+    height: 60px;
+    border-radius: 40%;    
+    font-size: 35px;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.3;
+    border: none;
+}
 #up{
     position: absolute;
     right: 20px;
-
 }
 
 #right{
+    
     position: absolute;
-    right: 10px;
-    top: 30px;
+    left: 20px;
+    top: 70px;
 }
 #left{
     position: absolute;
@@ -62,8 +72,8 @@ canvas{
 }
 #down{
     position: absolute;
-    left: 10px;
-    top: 30px;
+    right: 20px;
+    top: 70px;
 }
 @media only screen and (max-width: 576px) {
     canvas{
